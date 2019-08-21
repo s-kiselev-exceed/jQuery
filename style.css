@@ -1,0 +1,52 @@
+#bt1{
+    background-color: red;
+    padding: 7px;
+}
+#bt2{
+    background-color: pink;
+    padding: 7px;
+}
+#bt3{
+    background-color: purple;
+    padding: 7px;
+}
+#bt4{
+    background-color: blue;
+    padding: 7px;
+}
+#bt5{
+    background-color: aqua;
+    padding: 7px;
+}
+#bt6{
+    background-color: yellow;
+    padding: 7px;
+}
+span{
+    background-color: rgb(22, 165, 117);
+    padding: 8px;
+    cursor: pointer;
+    color: white;
+    
+    
+}
+#myInput{
+   height: 50px;
+   width: 500px;
+   
+
+}
+#divAdd{
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    background-color: azure;
+    width: 685px;
+    
+
+}
+.divTask{
+    height: 70px;
+    width: 685px;
+    background: rgb(154, 252, 162);
+}

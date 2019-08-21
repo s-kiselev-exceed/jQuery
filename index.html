@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta charset ="UTF-8">
+    <title>
+jQuery App
+    </title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js">
+    </script>
+    </head>
+    <body>
+        <div class="divTask">
+            <input type="checkbox" >
+            Todo item 1
+        </div>
+        <div class="divTask">
+            <input type="checkbox" >
+            Todo item 2
+        </div>
+        <div id="dv" class="divTask">
+            <input type="checkbox" >
+            Todo item 3
+        </div>
+        
+        <div id="divAdd">
+        <input type="text" id="myInput" placeholder="Add New Item">
+
+            <button id="bt1" onclick="changeColor('red')"> </button>
+            <button id="bt2" onclick="changeColor('pink')"> </button>
+            <button id="bt3" onclick="changeColor('purple')"> </button>
+            <button id="bt4" onclick="changeColor('blue')"> </button>
+            <button id="bt5" onclick="changeColor('aqua')"> </button>
+            <button id="bt6" onclick="changeColor('yellow')"> </button> 
+
+            <span onclick="newElement()">Add</span>
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
