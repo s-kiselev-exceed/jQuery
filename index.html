@@ -10,32 +10,36 @@ jQuery App
     </script>
     </head>
     <body>
-        <div class="divTask">
-            <input type="checkbox" >
-            Todo item 1
-        </div>
-        <div class="divTask">
-            <input type="checkbox" >
-            Todo item 2
-        </div>
-        <div id="dv" class="divTask">
-            <input type="checkbox" >
-            Todo item 3
-        </div>
-        
-        <div id="divAdd">
+
+        <ul id="list-items">
+                <div class='div' id="li1">
+                    <input class='checkbox' type='checkbox' >
+                    Todo item 1
+                </div>
+                <div class='div' id="li2">
+                         <input class='checkbox' type='checkbox'/>
+                    Todo item 2
+                </div>
+                <div class='div' id="li3">
+                        <input class='checkbox' type='checkbox'/>
+                    Todo item 3
+                </div>
+        </ul> 
+
+        <form class="Add">
         <input type="text" id="myInput" placeholder="Add New Item">
 
-            <button id="bt1" onclick="changeColor('red')"> </button>
-            <button id="bt2" onclick="changeColor('pink')"> </button>
-            <button id="bt3" onclick="changeColor('purple')"> </button>
-            <button id="bt4" onclick="changeColor('blue')"> </button>
-            <button id="bt5" onclick="changeColor('aqua')"> </button>
-            <button id="bt6" onclick="changeColor('yellow')"> </button> 
+            <button class='colorbt' id="bt1" > </button>
+            <button class='colorbt' id="bt2" > </button>
+            <button class='colorbt' id="bt3" > </button>
+            <button class='colorbt' id="bt4" > </button>
+            <button class='colorbt' id="bt5" > </button>
+            <button class='colorbt' id="bt6" > </button> 
 
-            <span onclick="newElement()">Add</span>
+            <button id="Add" >Add</button>
 
-        </div>
-        <script src="script.js"></script>
+        </form>
+        
+            <script src="script.js"></script>
     </body>
 </html>
