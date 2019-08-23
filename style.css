@@ -1,4 +1,6 @@
 .div {
+  display: flex;
+  flex-direction: row;
   width: 727px;
   height: 70px;
   border: 1px;
@@ -14,12 +16,18 @@
   height: 40px;
   width: 60px;
   background: rgb(41, 133, 113);
-  position: absolute;
   margin: 7px;
   border-radius: 3px;
   border-color: rgb(41, 133, 113);
   border-style: solid;
   color: white;
+}
+
+.add {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 span {
@@ -54,13 +62,13 @@ ul {
 }
 
 #li1 {
-  background-color: rgb(238, 64, 64);
+  background-color:#f16d69;
 }
 #li2 {
-  background-color: rgb(233, 108, 145);
+  background-color: #f077a2;
 }
 #li3 {
-  background-color: rgb(113, 48, 187);
+  background-color: #8f6dcb;
 }
 
 body {
@@ -68,64 +76,69 @@ body {
 }
 
 #red {
-  background-color: rgb(238, 64, 64);
+  background-color: #f16d69;
   padding: 7px;
-  border-color: rgb(233, 108, 145);
+  border-color: #f16d69;
   border-style: solid;
 }
 
 #pink {
-  background-color: rgb(233, 108, 145);
+  background-color: #f077a2;
   padding: 7px;
-  border-color: rgb(233, 108, 145);
+  border-color: #f077a2;
   border-style: solid;
 }
 
 #purple {
-  background-color: rgb(113, 48, 187);
+  background-color: #8f6dcb;
   padding: 7px;
-  border-color: rgb(113, 48, 187);
+  border-color: #8f6dcb;
   border-style: solid;
 }
 
 #blue {
-  background-color: blue;
+  background-color: #5EB3F6;
   padding: 7px;
-  border-color: blue;
+  border-color: #5EB3F6;
   border-style: solid;
 }
 
 #aqua {
-  background-color: aqua;
+  background-color: #67D7E5;
   padding: 7px;
-  border-color: aqua;
+  border-color: #67D7E5;
   border-style: solid;
 }
 
 #yellow {
-  background-color: yellow;
+  background-color: #ffe083;
   padding: 7px;
-  border-color: yellow;
+  border-color: #ffe083;
   border-style: solid;
+}
+.border{
+  border-right:2px solid white;
+  margin-right:15px; 
+  
 }
 
 .red {
-  background-color: rgb(238, 64, 64);
+  background-color: #f16d69;
 }
 .pink {
-  background-color: rgb(233, 108, 145);
+  background-color: #f077a2;
 }
 
 .purple {
-  background-color: rgb(113, 48, 187);
+  background-color:#8f6dcb;
 }
 .yellow {
-  background-color: yellow;
+  background-color: #ffe083;
 }
 .aqua {
-  background-color: aqua;
+  background-color:#67D7E5;
 }
 .blue {
-  background-color: blue;
+  background-color: #5EB3F6;
 }
 

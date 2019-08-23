@@ -7,7 +7,7 @@ $(document).ready(function() {
       const back = ["red", "blue", "aqua", "yellow", "purple", "pink"];
       const rand = back[Math.floor(Math.random() * back.length)];
       $("#list-items").append(
-        `<div class='div ${rand}'><input class='checkbox' type='checkbox'/> <span></span> ${item}</div>`
+        `<div class='div ${rand}'><div><input class='checkbox' type='checkbox'/></div> <p>${item}</p></div>`
       );
       $("#myInput").val("");
     }
@@ -22,6 +22,7 @@ $(".colorbt").on("click", function() {
   if ($(".checkbox").is(":checked")) {
     $(":checked")
       .parent()
-      .css("background", color);
+      .parent()
+      .attr('class',`div ${color}`);
   }
 });
