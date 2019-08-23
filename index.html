@@ -1,45 +1,49 @@
 <!DOCTYPE html>
 <html>
-    <head>
-<meta charset ="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>
-jQuery App
+      jQuery App
     </title>
-    <link href="style.css" rel="stylesheet">
-    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js">
-    </script>
-    </head>
-    <body>
 
-        <ul id="list-items">
-                <div class='div' id="li1">
-                    <input class='checkbox' type='checkbox' >
-                    Todo item 1
-                </div>
-                <div class='div' id="li2">
-                         <input class='checkbox' type='checkbox'/>
-                    Todo item 2
-                </div>
-                <div class='div' id="li3">
-                        <input class='checkbox' type='checkbox'/>
-                    Todo item 3
-                </div>
-        </ul> 
+    <link href="style.css" rel="stylesheet" />
 
-        <form class="Add">
-        <input type="text" id="myInput" placeholder="Add New Item">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+  </head>
+  <body>
+    <ul id="list-items">
+      <div class="div" id="li1">
+        <input class="checkbox" type="checkbox" />
+        <span></span>
+        Todo item 1
+      </div>
 
-            <button class='colorbt' id="bt1" > </button>
-            <button class='colorbt' id="bt2" > </button>
-            <button class='colorbt' id="bt3" > </button>
-            <button class='colorbt' id="bt4" > </button>
-            <button class='colorbt' id="bt5" > </button>
-            <button class='colorbt' id="bt6" > </button> 
+      <div class="div" id="li2">
+        <input class="checkbox" type="checkbox" />
+        <span></span>
+        Todo item 2
+      </div>
 
-            <button id="Add" >Add</button>
+      <div class="div" id="li3">
+        <input class="checkbox" type="checkbox" />
+        <span></span>
+        Todo item 3
+      </div>
+    </ul>
 
-        </form>
-        
-            <script src="script.js"></script>
-    </body>
+    <form class="Add">
+      <input type="text" id="myInput" placeholder="Add New Item" />
+
+      <button class="colorbt" id="red"></button>
+      <button class="colorbt" id="pink"></button>
+      <button class="colorbt" id="purple"></button>
+      <button class="colorbt" id="blue"></button>
+      <button class="colorbt" id="aqua"></button>
+      <button class="colorbt" id="yellow"></button>
+
+      <button id="Add">Add</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
 </html>
